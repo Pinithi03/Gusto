@@ -538,9 +538,9 @@ h3 {
     min-height: 100px;
 }
 
-.whitebox input:focus,
-.whitebox textarea:focus {
-    box-shadow: 0 0 0 2px rgba(212, 68, 62, 0.35);
+.whitebox input::placeholder,
+.whitebox textarea::placeholder {
+    color: #888;
 }
 
 .whitebox button {
@@ -555,6 +555,7 @@ h3 {
     transition: all 0.3s ease;
     text-transform: uppercase;
     margin-top: 15px;
+    border-radius: 4px;
 }
 
 .whitebox button:hover {
