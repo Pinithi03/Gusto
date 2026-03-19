@@ -25,6 +25,8 @@ section {
 h2 {
     text-align: center;
     margin-bottom: 40px;
+    font-weight: 600;
+    letter-spacing: 1px;
 }
 
 h3 {
