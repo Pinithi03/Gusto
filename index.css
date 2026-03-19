@@ -194,6 +194,8 @@ h3 {
 .food {
     text-align: center;
     padding: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 8px;
 }
 
 .food h3 {
@@ -215,7 +217,8 @@ h3 {
 }
 
 .food img:hover {
-    transform: scale(1.03);
+    transform: translateY(-6px);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
 }
 
 .food p {
