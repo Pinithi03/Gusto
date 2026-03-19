@@ -12,8 +12,16 @@
 <body>
 <!-- NAVBAR -->
 <header class="navbar">
-    <nav>
-        <ul>
+    <nav class="nav-container">
+        <a href="#hero" class="logo">Gusto</a>
+
+        <button class="hamburger" aria-label="Open menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <ul class="nav-menu">
             <li><a href="#specials">Specials</a></li>
             <li><a href="#story">About</a></li>
             <li><a href="#menu">Menu</a></li>
@@ -26,26 +34,10 @@
 <!-- HERO SECTION -->
 <section id ="hero" class="hero">
     <div class="hero-text">
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
         <h1>Gusto</h1>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
         <p>Reservations: (887) 654-3210</p>
     </div>
 </section>
-</body>
-</html>
 
 <!-- SPECIALS -->
 <section id="specials" class="specials">
@@ -57,36 +49,36 @@
         
         <div class="content">
           <div class="food">
-            <h3>Lorem ipsum dolor</h3>
+            <h3>Citrus Glazed Sardines</h3>
             <img
               src="images/ourspecials1.jpg"
               alt="food1"
             />
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed
-              dapibus leo nec ornare diam sed commodo.
+              Freshly grilled sardines served with roasted baby carrots, 
+              citrus oil, and delicate herb garnish for a light and vibrant starter.
             </p>
           </div>
           <div class="food">
-            <h3>Consectetur adipiscing</h3>
+            <h3>Herb-Crusted Beef Tenderloin</h3>
             <img
               src="images/ourspecials2.jpg"
               alt="food2"
             />
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed
-              dapibus leo nec ornare diam sed commodo.
+              Juicy tenderloin finished with a savory glaze,
+               accompanied by silky mashed potatoes and seasonal greens.
             </p>
           </div>
           <div class="food">
-            <h3>Duis sed dapibus</h3>
+            <h3>Pan-Seared Sirloin Steak</h3>
             <img
               src="images/ourspecials3.jpg"
               alt="food3"
             />
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed
-              dapibus leo nec ornare diam sed commodo.
+              Succulent sirloin cooked to perfection, 
+              paired with buttery vegetables and a classic red wine reduction.
             </p>
           </div>
         </div>
@@ -136,34 +128,35 @@
 
             <div class="menu-item-full">
                 <div class="menu-item-header">
-                    <span class="item-name">Tortellini Skewers</span>
+                    <span class="item-name">Cheese Tortellini Skewers</span>
                     <span class="item-price">$9</span>
                 </div>
-                <p class="item-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam.</p>
+                <p class="item-description">Grilled cheese-filled tortellini skewers served with a 
+                light herb drizzle and a touch of garlic butter.</p>
             </div>
 
             <div class="menu-item-full">
                 <div class="menu-item-header">
-                    <span class="item-name">Fried Ravioli</span>
+                    <span class="item-name">Crispy Fried Ravioli</span>
                     <span class="item-price">$7</span>
                 </div>
-                <p class="item-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam.</p>
+                <p class="item-description">Golden-fried ravioli stuffed with ricotta and herbs, served with a rich marinara dipping sauce.</p>
             </div>
 
             <div class="menu-item-full">
                 <div class="menu-item-header">
-                    <span class="item-name">Wild Mushroom Arancini</span>
+                    <span class="item-name">Wild Mushroom Arancini Balls</span>
                     <span class="item-price">$9</span>
                 </div>
-                <p class="item-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam.</p>
+                <p class="item-description">Crispy risotto balls infused with wild mushrooms, served with parmesan and truffle aioli.</p>
             </div>
 
             <div class="menu-item-full">
                 <div class="menu-item-header">
-                    <span class="item-name">Mozzarella Sticks</span>
+                    <span class="item-name">Classic Mozzarella Sticks</span>
                     <span class="item-price">$10</span>
                 </div>
-                <p class="item-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam.</p>
+                <p class="item-description">Breaded mozzarella fried to perfection, served with a tangy tomato sauce.</p>
             </div>
         </div>
 
@@ -174,34 +167,34 @@
 
             <div class="menu-item-full">
                 <div class="menu-item-header">
-                    <span class="item-name">Roast Stuffed Chicken</span>
+                    <span class="item-name">Herb-Stuffed Roast Chicken</span>
                     <span class="item-price">$18</span>
                 </div>
-                <p class="item-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam.</p>
+                <p class="item-description">Oven-roasted chicken filled with savory herbs and spices, served with a rich pan jus.</p>
             </div>
 
             <div class="menu-item-full">
                 <div class="menu-item-header">
-                    <span class="item-name">Chicken & Mushroom Pasta</span>
+                    <span class="item-name">Creamy Chicken Mushroom Pasta</span>
                     <span class="item-price">$20</span>
                 </div>
-                <p class="item-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam.</p>
+                <p class="item-description">A rich and creamy pasta dish featuring tender chicken and fresh mushrooms in a velvety sauce.</p>
             </div>
 
             <div class="menu-item-full">
                 <div class="menu-item-header">
-                    <span class="item-name">Beef Lasagne</span>
+                    <span class="item-name">Classic Beef Lasagne</span>
                     <span class="item-price">$14</span>
                 </div>
-                <p class="item-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam.</p>
+                <p class="item-description">Layers of slow-cooked beef, pasta, and creamy béchamel, baked to perfection.</p>
             </div>
 
             <div class="menu-item-full">
                 <div class="menu-item-header">
-                    <span class="item-name">Chicken Goujons</span>
+                    <span class="item-name">Crispy Chicken Goujons</span>
                     <span class="item-price">$19</span>
                 </div>
-                <p class="item-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam.</p>
+                <p class="item-description">Tender chicken strips coated in seasoned breadcrumbs, served with a honey mustard dip.</p>
             </div>
         </div>
     </div>
@@ -217,18 +210,18 @@
 
             <div class="menu-item-full">
                 <div class="menu-item-header">
-                    <span class="item-name">Sesame-Ginger Beef</span>
+                    <span class="item-name">Sesame Ginger Glazed Beef</span>
                     <span class="item-price">$15</span>
                 </div>
-                <p class="item-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam.</p>
+                <p class="item-description">Stir-fried beef coated in a sweet and savory sesame-ginger glaze.</p>
             </div>
 
             <div class="menu-item-full">
                 <div class="menu-item-header">
-                    <span class="item-name">Crispy Fried Chicken</span>
+                    <span class="item-name">Southern Style Fried Chicken</span>
                     <span class="item-price">$17</span>
                 </div>
-                <p class="item-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam.</p>
+                <p class="item-description">Golden crispy chicken served with a flavorful spice blend and a juicy interior.</p>
             </div>
 
             <div class="menu-item-full">
@@ -236,15 +229,15 @@
                     <span class="item-name">Mongolian Shrimp & Broccoli</span>
                     <span class="item-price">$18</span>
                 </div>
-                <p class="item-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam.</p>
+                <p class="item-description">Juicy shrimp and fresh broccoli tossed in a bold Mongolian-style sauce.</p>
             </div>
 
             <div class="menu-item-full">
                 <div class="menu-item-header">
-                    <span class="item-name">Spicy Coconut Salmon</span>
+                    <span class="item-name">Spicy Coconut Grilled Salmon</span>
                     <span class="item-price">$20</span>
                 </div>
-                <p class="item-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam.</p>
+                <p class="item-description">Grilled salmon served with a creamy coconut sauce infused with mild spices.</p>
             </div>
         </div>
 
@@ -255,26 +248,26 @@
 
             <div class="menu-item-full">
                 <div class="menu-item-header">
-                    <span class="item-name">Chocolate Mud Cake</span>
+                    <span class="item-name">Rich Chocolate Mud Cake</span>
                     <span class="item-price">$11</span>
                 </div>
-                <p class="item-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam.</p>
+                <p class="item-description">Decadent chocolate cake with a soft center, served warm with a chocolate glaze.</p>
             </div>
 
             <div class="menu-item-full">
                 <div class="menu-item-header">
-                    <span class="item-name">Bourbon-Pecan Tart</span>
+                    <span class="item-name">Bourbon Pecan Tart</span>
                     <span class="item-price">$14</span>
                 </div>
-                <p class="item-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam.</p>
+                <p class="item-description">Crunchy pecans in a caramelized bourbon filling, baked in a buttery crust.</p>
             </div>
 
             <div class="menu-item-full">
                 <div class="menu-item-header">
-                    <span class="item-name">Texas Sheet Cake</span>
+                    <span class="item-name">Classic Texas Sheet Cake</span>
                     <span class="item-price">$15</span>
                 </div>
-                <p class="item-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam.</p>
+                <p class="item-description">Moist chocolate sheet cake topped with a smooth cocoa frosting.</p>
             </div>
 
             <div class="menu-item-full">
@@ -282,7 +275,7 @@
                     <span class="item-name">Vanilla Cheesecake</span>
                     <span class="item-price">$15</span>
                 </div>
-                <p class="item-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam.</p>
+                <p class="item-description">Creamy baked cheesecake with a buttery biscuit base and a smooth vanilla finish.</p>
             </div>
         </div>
     </div>
@@ -321,7 +314,7 @@
         
     </div>
     <div class="right">
-        <img src="images/chef.webp" alt="Chef Image" width="750" height="300" alt="chef">
+        <img src="images/chef.webp" alt="Chef Prepairing a dish" width="750" height="300">
     </div>
 
 
@@ -386,33 +379,7 @@
 
 
 <!-- animation for the navigation bar -->
-<script>
-    const navbar = document.querySelector('.navbar');
-    let lastScrollTop = 0;
-
-    window.addEventListener('scroll', function() {
-        let currentScroll = window.pageYOffset || document.documentElement.scrollTop;
-
-        if (currentScroll > 100) {
-            
-            if (currentScroll > lastScrollTop) {
-                navbar.classList.add('scroll-down');
-                navbar.classList.remove('scroll-up');
-            } 
-            
-            else {
-                navbar.classList.add('scroll-up');
-                navbar.classList.remove('scroll-down');
-            }
-        } else {
-            
-            navbar.classList.remove('scroll-down');
-            navbar.classList.remove('scroll-up');
-        }
-
-        lastScrollTop = currentScroll <= 0 ? 0 : currentScroll;
-    });
-</script>
+<script src="script.js"></script>
 
 </body>
 </html>
